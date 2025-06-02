@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D08B40F72DEE1FD100F2A2E4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D08B40F32DEE1FD100F2A2E4 /* README.md */; };
 		D0C6D0CB2DEDD5CF00305977 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = D0C6D0CA2DEDD5CF00305977 /* FirebaseCore */; };
 		D0C6D0CD2DEDD5CF00305977 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D0C6D0CC2DEDD5CF00305977 /* FirebaseFirestore */; };
 /* End PBXBuildFile section */
@@ -22,6 +23,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D08B40F32DEE1FD100F2A2E4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D0C6D09A2DEDD54600305977 /* NoteKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C6D0AA2DEDD54900305977 /* NoteKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -65,6 +67,7 @@
 				D0C6D09C2DEDD54600305977 /* NoteKeeper */,
 				D0C6D0AD2DEDD54900305977 /* NoteKeeperTests */,
 				D0C6D09B2DEDD54600305977 /* Products */,
+				D08B40F32DEE1FD100F2A2E4 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D08B40F72DEE1FD100F2A2E4 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

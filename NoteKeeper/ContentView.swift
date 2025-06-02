@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  NoteKeeper
-//
-//  Created by Macbook Air on 02.06.2025.
-//
-
 import SwiftUI
 
 struct ContentView: View {
