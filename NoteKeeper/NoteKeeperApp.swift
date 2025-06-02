@@ -1,17 +1,16 @@
-//
-//  NoteKeeperApp.swift
-//  NoteKeeper
-//
-//  Created by Macbook Air on 02.06.2025.
-//
-
 import SwiftUI
+import FirebaseCore
 
 @main
 struct NoteKeeperApp: App {
+    
+    init() {
+        FirebaseApp.configure()
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NotesListView() 
         }
     }
 }

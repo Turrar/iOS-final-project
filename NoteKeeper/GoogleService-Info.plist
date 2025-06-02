@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyBhO9Td-7ug9yruVkehhHnncnpFnuNYAWQ</string>
+	<string>AIzaSyAgZdxjkK06MEPMJXUBhgcdaVd2dTi0e1E</string>
 	<key>GCM_SENDER_ID</key>
-	<string>523586756895</string>
+	<string>675748520843</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>ru.swiftbook.TaskFlow</string>
+	<string>ru.swiftbook.NoteKeeper</string>
 	<key>PROJECT_ID</key>
-	<string>taskflow-cdde9</string>
+	<string>notekeeper-44fcc</string>
 	<key>STORAGE_BUCKET</key>
-	<string>taskflow-cdde9.firebasestorage.app</string>
+	<string>notekeeper-44fcc.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:523586756895:ios:1dfe2e51c1ffa2ce1b502a</string>
+	<string>1:675748520843:ios:c6339acbd9c6ac968ac58e</string>
 </dict>
 </plist>

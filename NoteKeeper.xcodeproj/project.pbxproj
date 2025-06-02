@@ -6,15 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D0C6D0CB2DEDD5CF00305977 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = D0C6D0CA2DEDD5CF00305977 /* FirebaseCore */; };
+		D0C6D0CD2DEDD5CF00305977 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D0C6D0CC2DEDD5CF00305977 /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D0C6D0AB2DEDD54900305977 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D0C6D0922DEDD54600305977 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D0C6D0992DEDD54600305977;
-			remoteInfo = NoteKeeper;
-		};
-		D0C6D0B52DEDD54900305977 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D0C6D0922DEDD54600305977 /* Project object */;
 			proxyType = 1;
@@ -26,7 +24,6 @@
 /* Begin PBXFileReference section */
 		D0C6D09A2DEDD54600305977 /* NoteKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C6D0AA2DEDD54900305977 /* NoteKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0C6D0B42DEDD54900305977 /* NoteKeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteKeeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,11 +37,6 @@
 			path = NoteKeeperTests;
 			sourceTree = "<group>";
 		};
-		D0C6D0B72DEDD54900305977 /* NoteKeeperUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NoteKeeperUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,17 +44,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0C6D0CB2DEDD5CF00305977 /* FirebaseCore in Frameworks */,
+				D0C6D0CD2DEDD5CF00305977 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D0C6D0A72DEDD54900305977 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0C6D0B12DEDD54900305977 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,7 +64,6 @@
 			children = (
 				D0C6D09C2DEDD54600305977 /* NoteKeeper */,
 				D0C6D0AD2DEDD54900305977 /* NoteKeeperTests */,
-				D0C6D0B72DEDD54900305977 /* NoteKeeperUITests */,
 				D0C6D09B2DEDD54600305977 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +73,6 @@
 			children = (
 				D0C6D09A2DEDD54600305977 /* NoteKeeper.app */,
 				D0C6D0AA2DEDD54900305977 /* NoteKeeperTests.xctest */,
-				D0C6D0B42DEDD54900305977 /* NoteKeeperUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +97,8 @@
 			);
 			name = NoteKeeper;
 			packageProductDependencies = (
+				D0C6D0CA2DEDD5CF00305977 /* FirebaseCore */,
+				D0C6D0CC2DEDD5CF00305977 /* FirebaseFirestore */,
 			);
 			productName = NoteKeeper;
 			productReference = D0C6D09A2DEDD54600305977 /* NoteKeeper.app */;
@@ -140,29 +127,6 @@
 			productReference = D0C6D0AA2DEDD54900305977 /* NoteKeeperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D0C6D0B32DEDD54900305977 /* NoteKeeperUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D0C6D0C42DEDD54900305977 /* Build configuration list for PBXNativeTarget "NoteKeeperUITests" */;
-			buildPhases = (
-				D0C6D0B02DEDD54900305977 /* Sources */,
-				D0C6D0B12DEDD54900305977 /* Frameworks */,
-				D0C6D0B22DEDD54900305977 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D0C6D0B62DEDD54900305977 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				D0C6D0B72DEDD54900305977 /* NoteKeeperUITests */,
-			);
-			name = NoteKeeperUITests;
-			packageProductDependencies = (
-			);
-			productName = NoteKeeperUITests;
-			productReference = D0C6D0B42DEDD54900305977 /* NoteKeeperUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -180,10 +144,6 @@
 						CreatedOnToolsVersion = 16.2;
 						TestTargetID = D0C6D0992DEDD54600305977;
 					};
-					D0C6D0B32DEDD54900305977 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = D0C6D0992DEDD54600305977;
-					};
 				};
 			};
 			buildConfigurationList = D0C6D0952DEDD54600305977 /* Build configuration list for PBXProject "NoteKeeper" */;
@@ -195,6 +155,9 @@
 			);
 			mainGroup = D0C6D0912DEDD54600305977;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D0C6D0C92DEDD5CF00305977 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D0C6D09B2DEDD54600305977 /* Products */;
 			projectDirPath = "";
@@ -202,7 +165,6 @@
 			targets = (
 				D0C6D0992DEDD54600305977 /* NoteKeeper */,
 				D0C6D0A92DEDD54900305977 /* NoteKeeperTests */,
-				D0C6D0B32DEDD54900305977 /* NoteKeeperUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,13 +178,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D0C6D0A82DEDD54900305977 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0C6D0B22DEDD54900305977 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,13 +201,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0C6D0B02DEDD54900305977 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -260,11 +208,6 @@
 			isa = PBXTargetDependency;
 			target = D0C6D0992DEDD54600305977 /* NoteKeeper */;
 			targetProxy = D0C6D0AB2DEDD54900305977 /* PBXContainerItemProxy */;
-		};
-		D0C6D0B62DEDD54900305977 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D0C6D0992DEDD54600305977 /* NoteKeeper */;
-			targetProxy = D0C6D0B52DEDD54900305977 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -484,40 +427,6 @@
 			};
 			name = Release;
 		};
-		D0C6D0C52DEDD54900305977 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = F28LWR794R;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.NoteKeeperUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NoteKeeper;
-			};
-			name = Debug;
-		};
-		D0C6D0C62DEDD54900305977 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = F28LWR794R;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.NoteKeeperUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NoteKeeper;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -548,16 +457,31 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0C6D0C42DEDD54900305977 /* Build configuration list for PBXNativeTarget "NoteKeeperUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D0C6D0C52DEDD54900305977 /* Debug */,
-				D0C6D0C62DEDD54900305977 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D0C6D0C92DEDD5CF00305977 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.13.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D0C6D0CA2DEDD5CF00305977 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0C6D0C92DEDD5CF00305977 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		D0C6D0CC2DEDD5CF00305977 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0C6D0C92DEDD5CF00305977 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D0C6D0922DEDD54600305977 /* Project object */;
 }
